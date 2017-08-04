@@ -1,11 +1,12 @@
-var Doctor = require('./../js/doctor.js').doctoryModule;
+var Doctor = require('./../js/doctor.js').doctorModule;
 
 var displayDoctors = function(doctors) {
   if (doctors.length === 0) {
-    $('.showResult').append("There are no doctors matching this search.");
+    $('.showResult').append("There are no Doctors matching this search.");
   } else {
     doctors.forEach(function(doctor) {
-      $('.showResult').append("<li>" + doctor.name + "</li>");
+      console.log(doctor);
+      $('.showResult').append("<li>" + doctor.first_name + doctor.last_name + "</li>");
     });
   }
 };
