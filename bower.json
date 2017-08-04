@@ -1,0 +1,17 @@
+{
+  "name": "doctorlookup",
+  "description": "simple doctor lookup app using BetterDoctor API",
+  "main": "index.js",
+  "authors": [
+    "Nathan Stewart"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/GStewartN/DoctorLookup",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
