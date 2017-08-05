@@ -1,4 +1,4 @@
-# _Basic Historical Holidays App_
+# _Basic Doctor Search App_
 
 #### _Epicodus-JavaScript, Week 1 Independent Project, 08.04.2017_
 
