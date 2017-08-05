@@ -1,0 +1,36 @@
+$gray: #808080;
+$border: 3px solid black;
+
+body {
+  background: $gray;
+}
+
+.box {
+  background-size: cover;
+  border: $border;
+  padding: 40px 80px;
+  .button {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+  }
+  .link {
+    color: purple;
+  }
+}
+
+.showResult {
+  text-align: center;
+  list-style: none;
+  background-color: #B5B3AD;
+  padding: 10px;
+  border: $border;
+}
+
+.header {
+  background-color: #E6E5DF;
+  padding-left: 5px;
+  border: $border;
+  margin-top: 5px;
+  text-align: center;
+}
