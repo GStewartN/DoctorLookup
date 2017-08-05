@@ -5,7 +5,7 @@ var displayDoctors = function(doctors) {
     $('.showResult').append("There are no Doctors matching this search.");
   } else {
     doctors.forEach(function(doctor) {
-      $('.showResult').append("<li>" + doctor.profile.first_name + " " + doctor.profile.last_name + " " + doctor.profile.title + "</li>");
+      $('.showResult').append("<li>" + doctor.profile.first_name + " " + doctor.profile.last_name + " " + doctor.profile.title + "<br><br>" + doctor.profile.bio + "<br><br><br>" + "</li>");
     });
   }
 };
