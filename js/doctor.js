@@ -9,7 +9,7 @@ Doctor.prototype.getDoctors = function(medicalIssue, displayDoctors) {
       displayDoctors(response.data);
     })
    .fail(function(error){
-      console.log("fail");
+     $('.showResult').text(error.responseText);
     });
 };
 
